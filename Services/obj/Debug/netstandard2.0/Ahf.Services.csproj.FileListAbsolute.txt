@@ -1,0 +1,9 @@
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Services\bin\Debug\netstandard2.0\Ahf.Services.deps.json
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Services\bin\Debug\netstandard2.0\Ahf.Services.dll
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Services\bin\Debug\netstandard2.0\Ahf.Services.pdb
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Services\obj\Debug\netstandard2.0\Ahf.Services.csprojAssemblyReference.cache
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Services\obj\Debug\netstandard2.0\Ahf.Services.AssemblyInfoInputs.cache
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Services\obj\Debug\netstandard2.0\Ahf.Services.AssemblyInfo.cs
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Services\obj\Debug\netstandard2.0\Ahf.Services.csproj.CoreCompileInputs.cache
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Services\obj\Debug\netstandard2.0\Ahf.Services.dll
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Services\obj\Debug\netstandard2.0\Ahf.Services.pdb

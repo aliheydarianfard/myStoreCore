@@ -782,6 +782,21 @@
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
       },
+      "Ahf.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http": "2.2.2",
+          "Microsoft.Extensions.Configuration": "5.0.0",
+          "Microsoft.Extensions.Hosting": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ahf.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ahf.Services.dll": {}
+        }
+      },
       "identity.AuthenticateHandlers/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -799,21 +814,6 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-      },
-      "Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Http": "2.2.2",
-          "Microsoft.Extensions.Configuration": "5.0.0",
-          "Microsoft.Extensions.Hosting": "5.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Services.dll": {}
-        }
       },
       "Utilities/1.0.0": {
         "type": "project",
@@ -2110,15 +2110,15 @@
         "version.txt"
       ]
     },
+    "Ahf.Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Ahf.Services.csproj",
+      "msbuildProject": "../Services/Ahf.Services.csproj"
+    },
     "identity.AuthenticateHandlers/1.0.0": {
       "type": "project",
       "path": "../identity.AuthenticateHandlers/identity.AuthenticateHandlers.csproj",
       "msbuildProject": "../identity.AuthenticateHandlers/identity.AuthenticateHandlers.csproj"
-    },
-    "Services/1.0.0": {
-      "type": "project",
-      "path": "../Services/Services.csproj",
-      "msbuildProject": "../Services/Services.csproj"
     },
     "Utilities/1.0.0": {
       "type": "project",
@@ -2128,8 +2128,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Ahf.Services >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 5.0.0",
-      "Services >= 1.0.0",
       "Swashbuckle.AspNetCore.Swagger >= 5.6.3",
       "Swashbuckle.AspNetCore.SwaggerGen >= 5.6.3",
       "Swashbuckle.AspNetCore.SwaggerUi >= 5.6.3",
@@ -2169,8 +2169,8 @@
             "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\identity.AuthenticateHandlers\\identity.AuthenticateHandlers.csproj": {
               "projectPath": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\identity.AuthenticateHandlers\\identity.AuthenticateHandlers.csproj"
             },
-            "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\Services\\Services.csproj": {
-              "projectPath": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\Services\\Services.csproj"
+            "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\Services\\Ahf.Services.csproj": {
+              "projectPath": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\Services\\Ahf.Services.csproj"
             }
           }
         }

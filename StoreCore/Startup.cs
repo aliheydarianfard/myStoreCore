@@ -35,13 +35,23 @@ namespace StoreCore
 				options.AllowSynchronousIO = true;
 			});
 
-			
-			services.AddScoped<IJWTHandler,JWTHandler>();
+
+			services.AddScoped<IJWTHandler, JWTHandler>();
 			services.AddScoped<IUnitOfWork, UnitOfWork>();
 			services.AddSwaggerGen();
+			services.AddAuthentication("Bearer")
+			.AddJwtBearer("Bearer", options =>
+			{
+				options.Authority = "https://localhost:44356";
+				options.RequireHttpsMetadata = false;
 
-
+				options.Audience = "sitecore.profile.api";
+			});
 		}
+
+
+
+
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
 		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -68,4 +78,5 @@ namespace StoreCore
 			});
 		}
 	}
+
 }
