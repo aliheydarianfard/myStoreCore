@@ -12,7 +12,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using identity.AuthenticateHandlers;
-using Utilities;
 
 namespace identity.AuthenticateHandlers
 {

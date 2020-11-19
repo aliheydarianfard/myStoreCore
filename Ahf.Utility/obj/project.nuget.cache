@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U0k+L+LTnVH2miYoMjlyil9Uvi/8maK6Z/iO3H/gR007ZDw99VCjHAk1FXZrh3ZHHnLhn/eS27k8Lsan1E57Ww==",
+  "dgSpecHash": "NCLnodwdN8eF4fVrdWYVfqAhoag1fsEUm1IviNLa0iekDk5fnZv+6p+y9riCpHH71XZKKArALHZm1Gm+WncX7Q==",
   "success": true,
   "projectFilePath": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\Ahf.Utility\\Ahf.Utility.csproj",
-  "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

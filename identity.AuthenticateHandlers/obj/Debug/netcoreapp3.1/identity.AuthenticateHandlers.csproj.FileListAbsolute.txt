@@ -1,12 +1,9 @@
 F:\My Appliction\Web\MyStore\Back-End\StoreCore\identity.AuthenticateHandlers\bin\Debug\netcoreapp3.1\identity.AuthenticateHandlers.deps.json
 F:\My Appliction\Web\MyStore\Back-End\StoreCore\identity.AuthenticateHandlers\bin\Debug\netcoreapp3.1\identity.AuthenticateHandlers.dll
 F:\My Appliction\Web\MyStore\Back-End\StoreCore\identity.AuthenticateHandlers\bin\Debug\netcoreapp3.1\identity.AuthenticateHandlers.pdb
-F:\My Appliction\Web\MyStore\Back-End\StoreCore\identity.AuthenticateHandlers\bin\Debug\netcoreapp3.1\Utilities.dll
-F:\My Appliction\Web\MyStore\Back-End\StoreCore\identity.AuthenticateHandlers\bin\Debug\netcoreapp3.1\Utilities.pdb
 F:\My Appliction\Web\MyStore\Back-End\StoreCore\identity.AuthenticateHandlers\obj\Debug\netcoreapp3.1\identity.AuthenticateHandlers.csprojAssemblyReference.cache
 F:\My Appliction\Web\MyStore\Back-End\StoreCore\identity.AuthenticateHandlers\obj\Debug\netcoreapp3.1\identity.AuthenticateHandlers.AssemblyInfoInputs.cache
 F:\My Appliction\Web\MyStore\Back-End\StoreCore\identity.AuthenticateHandlers\obj\Debug\netcoreapp3.1\identity.AuthenticateHandlers.AssemblyInfo.cs
 F:\My Appliction\Web\MyStore\Back-End\StoreCore\identity.AuthenticateHandlers\obj\Debug\netcoreapp3.1\identity.AuthenticateHandlers.csproj.CoreCompileInputs.cache
-F:\My Appliction\Web\MyStore\Back-End\StoreCore\identity.AuthenticateHandlers\obj\Debug\netcoreapp3.1\identity.AuthenticateHandlers.csproj.CopyComplete
 F:\My Appliction\Web\MyStore\Back-End\StoreCore\identity.AuthenticateHandlers\obj\Debug\netcoreapp3.1\identity.AuthenticateHandlers.dll
 F:\My Appliction\Web\MyStore\Back-End\StoreCore\identity.AuthenticateHandlers\obj\Debug\netcoreapp3.1\identity.AuthenticateHandlers.pdb

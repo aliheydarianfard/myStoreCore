@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Ahf.Framework/1.0.0": {
+        "runtime": {
+          "Ahf.Framework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ahf.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

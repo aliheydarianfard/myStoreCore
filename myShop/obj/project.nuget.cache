@@ -1,13 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "8Q10ZMrqhTpkbynFW3o8/LqxaKK0k72RXELLIe47yjm5fwszG4m3kgp+y/5jgUjBqNHCk57eVZIxD3xkCWFxfA==",
+  "dgSpecHash": "g0lrX0YgV6700RLwzd7znyIAmZzKkZ22NXeEzz3Cum4q90SHcX1Vc7jsP3F+bmtKKzf/NbcIx/RP8hw84Eao/g==",
   "success": true,
   "projectFilePath": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\myShop\\myShop.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
+    "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0\\microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",
+    "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\AliHF\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.1\\swashbuckle.aspnetcore.swagger.5.6.1.nupkg.sha512",
     "C:\\Users\\AliHF\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.1\\swashbuckle.aspnetcore.swaggergen.5.6.1.nupkg.sha512",
-    "C:\\Users\\AliHF\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.1\\swashbuckle.aspnetcore.swaggerui.5.6.1.nupkg.sha512"
+    "C:\\Users\\AliHF\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.1\\swashbuckle.aspnetcore.swaggerui.5.6.1.nupkg.sha512",
+    "C:\\Users\\AliHF\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\AliHF\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\AliHF\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

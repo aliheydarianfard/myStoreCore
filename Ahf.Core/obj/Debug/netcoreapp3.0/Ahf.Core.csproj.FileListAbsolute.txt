@@ -1,0 +1,9 @@
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Ahf.Core\bin\Debug\netcoreapp3.0\Ahf.Core.deps.json
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Ahf.Core\bin\Debug\netcoreapp3.0\Ahf.Core.dll
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Ahf.Core\bin\Debug\netcoreapp3.0\Ahf.Core.pdb
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Ahf.Core\obj\Debug\netcoreapp3.0\Ahf.Core.AssemblyInfoInputs.cache
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Ahf.Core\obj\Debug\netcoreapp3.0\Ahf.Core.AssemblyInfo.cs
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Ahf.Core\obj\Debug\netcoreapp3.0\Ahf.Core.csproj.CoreCompileInputs.cache
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Ahf.Core\obj\Debug\netcoreapp3.0\Ahf.Core.dll
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Ahf.Core\obj\Debug\netcoreapp3.0\Ahf.Core.pdb
+F:\My Appliction\Web\MyStore\Back-End\StoreCore\Ahf.Core\obj\Debug\netcoreapp3.0\Ahf.Core.csprojAssemblyReference.cache
