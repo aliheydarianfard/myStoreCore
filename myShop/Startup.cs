@@ -41,18 +41,7 @@ namespace myShop
 			IMvcBuilder configController = services.AddControllers();
 			services.AddControllers();
 			services.AddSwaggerGen();
-			services.AddCors(options =>
-			{
-				options.AddDefaultPolicy(
-					builder => builder
-						//.AllowAnyOrigin()
-						.WithOrigins("http://localhost:4500", "http://localhost:5001", "http://localhost:4200")
-						.AllowAnyMethod()
-						.WithMethods("POST", "DELETE", "PUT", "GET", "OPTIONS")
-						.AllowAnyHeader()
-						.AllowCredentials()
-						);
-			});
+			
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -68,8 +57,13 @@ namespace myShop
 			{
 				app.UseDeveloperExceptionPage();
 			}
+			app.UseCors(x => x
+		 .AllowAnyOrigin()
+		 .AllowAnyMethod()
+		 .AllowAnyHeader());
 
 			app.UseHttpsRedirection();
+
 
 			app.UseRouting();
 

@@ -11,7 +11,7 @@ namespace myShop.Controllers
 {
 	[Route("[controller]")]
 	[ApiController]
-	public class CategoryController : ControllerBase
+	public class CategoryController : Controller
 	{
 		#region Fileds
 		private readonly IRepository<Category> _repositoryCategory = null;
