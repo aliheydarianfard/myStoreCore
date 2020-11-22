@@ -9,17 +9,17 @@ namespace Ahf.Data
 {
 	public class SqlServerApplicationContext:DbContext,IApplcationDbContext
 	{
-		//public SqlServerApplicationContext(DbContextOptions option)
-		//   : base(option)
-		//{
-
-		//}
-
-		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+		public SqlServerApplicationContext(DbContextOptions option)
+		   : base(option)
 		{
-			optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=MyStoreDB;Integrated Security=true;");
-			base.OnConfiguring(optionsBuilder);
+
 		}
+
+		//protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+		//{
+		//	optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=MyStoreDB;Integrated Security=true;");
+		//	base.OnConfiguring(optionsBuilder);
+		//}
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

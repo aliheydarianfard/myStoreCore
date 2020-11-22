@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wUoqlTJtM8EZwK2I/jy6tL+3Gctdx/gPsdvoMIkI/Ok1GJ1KOmlXRU83JnDV4bwiRb0+YnNmRkw4LHYfMpfAaQ==",
+  "dgSpecHash": "OcFhBuWRV7EvsqpihNucFU7a8ASDoo7amge+nuj5lCdf8Gm15kxQY+4+oihyR73tgoWo592ko3vl05OO6fdffg==",
   "success": true,
-  "projectFilePath": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\Ahf.Core\\Ahf.Core.csproj",
+  "projectFilePath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Core\\Ahf.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

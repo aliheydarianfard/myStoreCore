@@ -7,3 +7,12 @@ F:\My Appliction\Web\MyStore\Back-End\StoreCore\Ahf.Utility\obj\Debug\netcoreapp
 F:\My Appliction\Web\MyStore\Back-End\StoreCore\Ahf.Utility\obj\Debug\netcoreapp3.0\Ahf.Utility.csproj.CoreCompileInputs.cache
 F:\My Appliction\Web\MyStore\Back-End\StoreCore\Ahf.Utility\obj\Debug\netcoreapp3.0\Ahf.Utility.dll
 F:\My Appliction\Web\MyStore\Back-End\StoreCore\Ahf.Utility\obj\Debug\netcoreapp3.0\Ahf.Utility.pdb
+F:\My Appliction\Web\Store\StoreCore\Ahf.Utility\bin\Debug\netcoreapp3.0\Ahf.Utility.deps.json
+F:\My Appliction\Web\Store\StoreCore\Ahf.Utility\bin\Debug\netcoreapp3.0\Ahf.Utility.dll
+F:\My Appliction\Web\Store\StoreCore\Ahf.Utility\bin\Debug\netcoreapp3.0\Ahf.Utility.pdb
+F:\My Appliction\Web\Store\StoreCore\Ahf.Utility\obj\Debug\netcoreapp3.0\Ahf.Utility.csprojAssemblyReference.cache
+F:\My Appliction\Web\Store\StoreCore\Ahf.Utility\obj\Debug\netcoreapp3.0\Ahf.Utility.AssemblyInfoInputs.cache
+F:\My Appliction\Web\Store\StoreCore\Ahf.Utility\obj\Debug\netcoreapp3.0\Ahf.Utility.AssemblyInfo.cs
+F:\My Appliction\Web\Store\StoreCore\Ahf.Utility\obj\Debug\netcoreapp3.0\Ahf.Utility.csproj.CoreCompileInputs.cache
+F:\My Appliction\Web\Store\StoreCore\Ahf.Utility\obj\Debug\netcoreapp3.0\Ahf.Utility.dll
+F:\My Appliction\Web\Store\StoreCore\Ahf.Utility\obj\Debug\netcoreapp3.0\Ahf.Utility.pdb

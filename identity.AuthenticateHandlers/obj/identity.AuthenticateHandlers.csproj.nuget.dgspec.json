@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\identity.AuthenticateHandlers\\identity.AuthenticateHandlers.csproj": {}
+    "F:\\My Appliction\\Web\\Store\\StoreCore\\identity.AuthenticateHandlers\\identity.AuthenticateHandlers.csproj": {}
   },
   "projects": {
-    "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\identity.AuthenticateHandlers\\identity.AuthenticateHandlers.csproj": {
+    "F:\\My Appliction\\Web\\Store\\StoreCore\\identity.AuthenticateHandlers\\identity.AuthenticateHandlers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\identity.AuthenticateHandlers\\identity.AuthenticateHandlers.csproj",
+        "projectUniqueName": "F:\\My Appliction\\Web\\Store\\StoreCore\\identity.AuthenticateHandlers\\identity.AuthenticateHandlers.csproj",
         "projectName": "identity.AuthenticateHandlers",
-        "projectPath": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\identity.AuthenticateHandlers\\identity.AuthenticateHandlers.csproj",
+        "projectPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\identity.AuthenticateHandlers\\identity.AuthenticateHandlers.csproj",
         "packagesPath": "C:\\Users\\AliHF\\.nuget\\packages\\",
-        "outputPath": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\identity.AuthenticateHandlers\\obj\\",
+        "outputPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\identity.AuthenticateHandlers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

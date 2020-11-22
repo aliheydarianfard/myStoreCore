@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pA/HOg5ISKEnq3N0r9yObJkCTnjoNhV92Z5pe+UmlSQUatVci9zkGDfGxTm1Tdji+p9La0jj+wpXcE8+Yh/3hw==",
+  "dgSpecHash": "W13WdPN/vk+NWbkO8opkDnEKmrmNukmoFcCUSQ47b78tvYui0JejzOdZSBK1wjzQsPoO6hRtJWNcE1E7BKbb2A==",
   "success": true,
-  "projectFilePath": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\identity.AuthenticateHandlers\\identity.AuthenticateHandlers.csproj",
+  "projectFilePath": "F:\\My Appliction\\Web\\Store\\StoreCore\\identity.AuthenticateHandlers\\identity.AuthenticateHandlers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
     "C:\\Users\\AliHF\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.5.0\\microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",

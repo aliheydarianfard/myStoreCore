@@ -1,17 +1,204 @@
 {
   "format": 1,
   "restore": {
-    "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\myShop\\myShop.csproj": {}
+    "F:\\My Appliction\\Web\\Store\\StoreCore\\myShop\\myShop.csproj": {}
   },
   "projects": {
-    "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\myShop\\myShop.csproj": {
+    "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Core\\Ahf.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\myShop\\myShop.csproj",
-        "projectName": "myShop",
-        "projectPath": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\myShop\\myShop.csproj",
+        "projectUniqueName": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Core\\Ahf.Core.csproj",
+        "projectName": "Ahf.Core",
+        "projectPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Core\\Ahf.Core.csproj",
         "packagesPath": "C:\\Users\\AliHF\\.nuget\\packages\\",
-        "outputPath": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\myShop\\obj\\",
+        "outputPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AliHF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://source.chartex.net:8080/NewChartex/_packaging/ActionsLibrary/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Data\\Ahf.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Data\\Ahf.Data.csproj",
+        "projectName": "Ahf.Data",
+        "projectPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Data\\Ahf.Data.csproj",
+        "packagesPath": "C:\\Users\\AliHF\\.nuget\\packages\\",
+        "outputPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AliHF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://source.chartex.net:8080/NewChartex/_packaging/ActionsLibrary/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Core\\Ahf.Core.csproj": {
+                "projectPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Core\\Ahf.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Framework\\Ahf.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Framework\\Ahf.Framework.csproj",
+        "projectName": "Ahf.Framework",
+        "projectPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Framework\\Ahf.Framework.csproj",
+        "packagesPath": "C:\\Users\\AliHF\\.nuget\\packages\\",
+        "outputPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AliHF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://source.chartex.net:8080/NewChartex/_packaging/ActionsLibrary/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\My Appliction\\Web\\Store\\StoreCore\\myShop\\myShop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My Appliction\\Web\\Store\\StoreCore\\myShop\\myShop.csproj",
+        "projectName": "myShop",
+        "projectPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\myShop\\myShop.csproj",
+        "packagesPath": "C:\\Users\\AliHF\\.nuget\\packages\\",
+        "outputPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\myShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,7 +216,17 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Data\\Ahf.Data.csproj": {
+                "projectPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Data\\Ahf.Data.csproj"
+              },
+              "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Framework\\Ahf.Framework.csproj": {
+                "projectPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Framework\\Ahf.Framework.csproj"
+              },
+              "F:\\My Appliction\\Web\\Store\\StoreCore\\Services\\Ahf.Services.csproj": {
+                "projectPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Services\\Ahf.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -72,6 +269,65 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\My Appliction\\Web\\Store\\StoreCore\\Services\\Ahf.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My Appliction\\Web\\Store\\StoreCore\\Services\\Ahf.Services.csproj",
+        "projectName": "Ahf.Services",
+        "projectPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Services\\Ahf.Services.csproj",
+        "packagesPath": "C:\\Users\\AliHF\\.nuget\\packages\\",
+        "outputPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AliHF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://source.chartex.net:8080/NewChartex/_packaging/ActionsLibrary/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Data\\Ahf.Data.csproj": {
+                "projectPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Data\\Ahf.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

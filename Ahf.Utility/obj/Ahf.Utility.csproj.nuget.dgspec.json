@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\Ahf.Utility\\Ahf.Utility.csproj": {}
+    "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Utility\\Ahf.Utility.csproj": {}
   },
   "projects": {
-    "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\Ahf.Utility\\Ahf.Utility.csproj": {
+    "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Utility\\Ahf.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\Ahf.Utility\\Ahf.Utility.csproj",
+        "projectUniqueName": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Utility\\Ahf.Utility.csproj",
         "projectName": "Ahf.Utility",
-        "projectPath": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\Ahf.Utility\\Ahf.Utility.csproj",
+        "projectPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Utility\\Ahf.Utility.csproj",
         "packagesPath": "C:\\Users\\AliHF\\.nuget\\packages\\",
-        "outputPath": "F:\\My Appliction\\Web\\MyStore\\Back-End\\StoreCore\\Ahf.Utility\\obj\\",
+        "outputPath": "F:\\My Appliction\\Web\\Store\\StoreCore\\Ahf.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
