@@ -9,12 +9,13 @@ namespace Ahf.Core.Domain
     {
         public string Name { get; set; }
 
-        public int ParentId { get; set; }
-
-        public int DiscountAmount { get; set; }
+        public string Description { get; set; }
+        public int? ParentId { get; set; }
 
         public virtual Category ParentCategory { get; set; }
 
         public virtual ICollection<Category> Children { get; set; }
+
+
     }
 }

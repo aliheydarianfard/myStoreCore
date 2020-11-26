@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Ahf.Data.Migrations
 {
     [DbContext(typeof(SqlServerApplicationContext))]
-    [Migration("20201115210144_MyFirstMigration")]
+    [Migration("20201125194606_MyFirstMigration")]
     partial class MyFirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,13 +31,13 @@ namespace Ahf.Data.Migrations
                     b.Property<DateTime>("CreateOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("DiscountAmount")
-                        .HasColumnType("int");
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ParentId")
+                    b.Property<int?>("ParentId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("UpdateOn")
@@ -48,17 +48,6 @@ namespace Ahf.Data.Migrations
                     b.HasIndex("ParentId");
 
                     b.ToTable("Category");
-
-                    b.HasData(
-                        new
-                        {
-                            ID = 1,
-                            CreateOn = new DateTime(2020, 11, 16, 0, 31, 44, 492, DateTimeKind.Local).AddTicks(3107),
-                            DiscountAmount = 0,
-                            Name = "دسته",
-                            ParentId = 1,
-                            UpdateOn = new DateTime(2020, 11, 16, 0, 31, 44, 496, DateTimeKind.Local).AddTicks(328)
-                        });
                 });
 
             modelBuilder.Entity("Ahf.Core.Domain.Category", b =>
@@ -66,8 +55,7 @@ namespace Ahf.Data.Migrations
                     b.HasOne("Ahf.Core.Domain.Category", "ParentCategory")
                         .WithMany("Children")
                         .HasForeignKey("ParentId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.Navigation("ParentCategory");
                 });

@@ -4,8 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Ahf.Core.Domain;
 using Ahf.Data.Repositories;
+using Ahf.Services.CategoryServices;
+using Ahf.Services.DTO.Categories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using myShop.Utilities;
 using Newtonsoft.Json;
 namespace myShop.Controllers
 {
@@ -14,18 +17,29 @@ namespace myShop.Controllers
 	public class CategoryController : Controller
 	{
 		#region Fileds
-		private readonly IRepository<Category> _repositoryCategory = null;
+		private readonly ICategoryService _categoryService=null;
 
-		public CategoryController(IRepository<Category> repositoryCategory)
+		#endregion
+		public CategoryController(ICategoryService categoryService)
 		{
-			_repositoryCategory = repositoryCategory;
+			_categoryService = categoryService;
+		}
+		#region Get
+		
+		[HttpGet("GetAll")]
+		public async Task<IActionResult> TestCategoryAsync()
+		{
+			var Caregories = await _categoryService.FindAllAsync();
+			return Ok(Caregories);
 		}
 		#endregion
-		[HttpGet("GetAll")]
-		public IActionResult TestCategory()
+		#region Insert
+		[HttpPost("Insert")]
+		public IActionResult InsertCategory([FromBody] CategoryRegisterDTO dTO)
 		{
-			var s =  _repositoryCategory.TableNoTracking.ToList();
-			return Ok(s);
+			var Caregories = _categoryService.RegisterAsync(dTO);
+			return SuccessMessageHandler.InsertCategory();
 		}
+		#endregion
 	}
 }

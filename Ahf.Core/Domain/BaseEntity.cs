@@ -6,7 +6,7 @@ namespace Ahf.Core.Domain.BaseEntities
 {
 	public abstract class BaseEntity
 	{
-		public int ID { get; set; }
+		public int Id { get; set; }
 		public DateTime CreateOn { get; set; }
 		public DateTime UpdateOn { get; set; }
 	}

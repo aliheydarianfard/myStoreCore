@@ -4,8 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Ahf.Data;
 using Ahf.Data.Repositories;
+using Ahf.Services;
+using Ahf.Services.CategoryServices;
+using Ahf.Services.Infrastructure.Mapper;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -31,7 +36,7 @@ namespace myShop
 
 			services.AddScoped(typeof(IRepository<>), typeof(EFRepository<>));
 			services.AddScoped<IApplcationDbContext, SqlServerApplicationContext>();
-
+			services.AddScoped<ICategoryService, CategoryService>();
 			services.AddDbContext<IApplcationDbContext, SqlServerApplicationContext>(
 				(Options) =>
 			{
@@ -39,6 +44,14 @@ namespace myShop
 			}, optionsLifetime: ServiceLifetime.Scoped);
 
 			IMvcBuilder configController = services.AddControllers();
+			// Auto Mapper Configurations
+			var mapperConfig = new MapperConfiguration(mc =>
+			{
+				mc.AddProfile(new OrganizationProfile());
+			});
+
+			IMapper mapper = mapperConfig.CreateMapper();
+			services.AddSingleton(mapper);
 			services.AddControllers();
 			services.AddSwaggerGen();
 			

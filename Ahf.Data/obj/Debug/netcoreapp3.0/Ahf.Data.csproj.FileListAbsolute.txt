@@ -23,8 +23,8 @@ F:\My Appliction\Web\Store\StoreCore\Ahf.Data\bin\Debug\netcoreapp3.0\Ahf.Core.p
 F:\My Appliction\Web\Store\StoreCore\Ahf.Data\obj\Debug\netcoreapp3.0\Ahf.Data.csprojAssemblyReference.cache
 F:\My Appliction\Web\Store\StoreCore\Ahf.Data\obj\Debug\netcoreapp3.0\Ahf.Data.AssemblyInfoInputs.cache
 F:\My Appliction\Web\Store\StoreCore\Ahf.Data\obj\Debug\netcoreapp3.0\Ahf.Data.AssemblyInfo.cs
-F:\My Appliction\Web\Store\StoreCore\Ahf.Data\obj\Debug\netcoreapp3.0\Ahf.Data.csproj.CoreCompileInputs.cache
 F:\My Appliction\Web\Store\StoreCore\Ahf.Data\obj\Debug\netcoreapp3.0\Ahf.Data.csproj.CopyComplete
 F:\My Appliction\Web\Store\StoreCore\Ahf.Data\obj\Debug\netcoreapp3.0\Ahf.Data.dll
 F:\My Appliction\Web\Store\StoreCore\Ahf.Data\obj\Debug\netcoreapp3.0\Ahf.Data.pdb
 F:\My Appliction\Web\Store\StoreCore\Ahf.Data\obj\Debug\netcoreapp3.0\Ahf.Data.genruntimeconfig.cache
+F:\My Appliction\Web\Store\StoreCore\Ahf.Data\obj\Debug\netcoreapp3.0\Ahf.Data.csproj.CoreCompileInputs.cache

@@ -14,8 +14,8 @@ namespace Ahf.Data.Migrations
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ParentId = table.Column<int>(type: "int", nullable: false),
-                    DiscountAmount = table.Column<int>(type: "int", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ParentId = table.Column<int>(type: "int", nullable: true),
                     CreateOn = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdateOn = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
@@ -28,11 +28,6 @@ namespace Ahf.Data.Migrations
                         principalTable: "Category",
                         principalColumn: "ID");
                 });
-
-            migrationBuilder.InsertData(
-                table: "Category",
-                columns: new[] { "ID", "CreateOn", "DiscountAmount", "Name", "ParentId", "UpdateOn" },
-                values: new object[] { 1, new DateTime(2020, 11, 16, 0, 31, 44, 492, DateTimeKind.Local).AddTicks(3107), 0, "دسته", 1, new DateTime(2020, 11, 16, 0, 31, 44, 496, DateTimeKind.Local).AddTicks(328) });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Category_ParentId",
