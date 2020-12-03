@@ -25,7 +25,7 @@ namespace Ahf.Data
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(SqlServerApplicationContext).Assembly);
             //modelBuilder.SetCreateOn();
-            base.OnModelCreating(modelBuilder);
+            base.OnModelCreating(modelBuilder); 
         }
 
         public override EntityEntry Update([NotNullAttribute] object entity)
