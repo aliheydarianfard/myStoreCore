@@ -8,7 +8,10 @@ namespace Ahf.Services.CategoryServices
 {
 	public interface ICategoryService
 	{
-		Task<IEnumerable<CategoryListDTO>> FindAllAsync();
+		Task<IEnumerable<CategoryListDTO>> FindAllAsync(string SearchString);
+		Task<CategoryListDTO> GetCategoryById(int CategoryId);
+		Task<bool> IsExistCategory(int CategoryId);
 		Task RegisterAsync(CategoryRegisterDTO dTO);
+		Task RemoveAsync(int CategoryId);
 	}
 }

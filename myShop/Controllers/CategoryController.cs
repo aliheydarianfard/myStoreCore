@@ -17,7 +17,7 @@ namespace myShop.Controllers
 	public class CategoryController : Controller
 	{
 		#region Fileds
-		private readonly ICategoryService _categoryService=null;
+		private readonly ICategoryService _categoryService = null;
 
 		#endregion
 		public CategoryController(ICategoryService categoryService)
@@ -25,21 +25,49 @@ namespace myShop.Controllers
 			_categoryService = categoryService;
 		}
 		#region Get
-		
-		[HttpGet("GetAll")]
-		public async Task<IActionResult> TestCategoryAsync()
+
+		[HttpGet("GetAll/{SrarchString?}")]
+		public async Task<IActionResult> GetAllCategoryAsync(string? SrarchString)
 		{
-			var Caregories = await _categoryService.FindAllAsync();
+			var Caregories = await _categoryService.FindAllAsync(SrarchString);
 			return Ok(Caregories);
 		}
 		#endregion
 		#region Insert
 		[HttpPost("Insert")]
-		public IActionResult InsertCategory([FromBody] CategoryRegisterDTO dTO)
+		public async Task<IActionResult> InsertCategoryAsync([FromBody] CategoryRegisterDTO dTO)
 		{
-			var Caregories = _categoryService.RegisterAsync(dTO);
-			return SuccessMessageHandler.InsertCategory();
+			await _categoryService.RegisterAsync(dTO);
+			if (dTO.Id != 0)
+				return SuccessMessageHandler.EditCategory();
+			else
+					return SuccessMessageHandler.InsertCategory();
+			}
+			#endregion
+			#region Delete
+			[HttpDelete("Delete/{CategoryId}")]
+			public async Task<IActionResult> DeleteCategoryAsync(int CategoryId)
+			{
+				await _categoryService.RemoveAsync(CategoryId);
+				return SuccessMessageHandler.DeleteCategory();
+			}
+			#endregion
+			#region IsExistCategory
+			[HttpGet("IsExistCategory/{CategoryId}")]
+			public async Task<IActionResult> IsExistCategory(int CategoryId)
+			{
+				var isExist = await _categoryService.IsExistCategory(CategoryId);
+				return Ok(isExist);
+			}
+			#endregion
+			#region IsExistCategory
+			[HttpGet("GetCategoryById/{CategoryId}")]
+			public async Task<IActionResult> GetCategoryById(int CategoryId)
+			{
+				var category = await _categoryService.GetCategoryById(CategoryId);
+				return Ok(category);
+			}
+			#endregion
 		}
-		#endregion
 	}
-}
+

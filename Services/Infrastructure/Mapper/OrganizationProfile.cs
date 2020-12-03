@@ -12,6 +12,7 @@ namespace Ahf.Services.Infrastructure.Mapper
 		public OrganizationProfile()
 		{
 			CreateMap<CategoryRegisterDTO, Category>().ReverseMap();
+			CreateMap< Category, CategoryRegisterDTO>().ReverseMap();
 		}
 	}
 }

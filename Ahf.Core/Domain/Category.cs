@@ -15,6 +15,7 @@ namespace Ahf.Core.Domain
         public virtual Category ParentCategory { get; set; }
 
         public virtual ICollection<Category> Children { get; set; }
+        public virtual ICollection<Product> Products  { get; set; }
 
 
     }
